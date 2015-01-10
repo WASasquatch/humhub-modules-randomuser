@@ -9,7 +9,7 @@
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <?php echo Yii::t('RandomUserModule.base', '<strong>Random</strong> Artist'); ?>
+        <?php echo Yii::t('RandomUserModule.base', '<strong>Random</strong> User'); ?>
     </div>
 	<div id="randomuserwidget">
 		<a href="<?php echo $user->getProfileUrl(); ?>"> 

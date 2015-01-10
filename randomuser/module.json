@@ -1,0 +1,11 @@
+{
+    "id": "randomuser",
+    "name": "Random User Widget",
+    "description": "This widget shows a random user on the dashboard.",
+    "keywords": ["randomuser", "random", "user", "widget", "dashboard"],
+    "version": "0.0.1",
+    "humhub": {
+        "minVersion": "0.8.0"
+    },
+    "screenshots": ["assets/screen1.png"]
+}

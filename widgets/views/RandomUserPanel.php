@@ -19,7 +19,7 @@
 		<div class="media-body">
 			<h4 class="media-heading"><a href="<?php echo $user->getProfileUrl(); ?>"><strong><?php echo $user->displayName; ?></strong></a> 
 				<span class="label label-default"><?php echo $user->group->name; ?></span></h4>
-			<div class="randomsub"><?php echo $user->profile->title; ?></div>
+			<div class="randomsub"><?php echo (!empty($user->profile->title)) ? $user->profile->title : '<i>This user has no title</i>'; ?></div>
 		</div>
 	</div>
 </div>

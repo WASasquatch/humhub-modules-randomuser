@@ -1,0 +1,38 @@
+#randomuserwidget {
+  padding: 5px;
+  min-height: 66px;
+}
+#randomuserwidget .media-body h4.media-heading {
+  display: table-cell;
+  margin: 0;
+  padding-top: 5px;
+}
+#randomuserwidget .media-body .media-heading .label.label-default {
+  margin-top: -5px;
+  vertical-align: middle;
+}
+#randomuserwidget .media-body a {
+  vertical-align: top;
+  padding: 0;
+}
+#randomuserwidget .media-body strong {
+  vertical-align: top;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+#randomuserwidget .randomuserimage {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  max-width: 55px;
+  max-height: 55px;
+  padding: 5px;
+}
+#randomuserwidget .randomsub {
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  color: #555;
+  font-size: x-small;
+}

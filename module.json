@@ -7,4 +7,5 @@
     "humhub": {
         "minVersion": "0.8.0"
     },
+    "screenshots": ["assets/Screenshot_1.png"]
 }

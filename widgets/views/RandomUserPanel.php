@@ -9,7 +9,7 @@
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <?php echo Yii::t('RandomUserModule.base', '<strong>Random</strong> User'); ?>
+        <?php echo Yii::t('RandomUserModule.base', '<strong>Random</strong> Member'); ?>
     </div>
 	<div id="randomuserwidget">
 		<a href="<?php echo $user->getProfileUrl(); ?>"> 
@@ -19,7 +19,7 @@
 		<div class="media-body">
 			<h4 class="media-heading"><a href="<?php echo $user->getProfileUrl(); ?>"><strong><?php echo $user->displayName; ?></strong></a> 
 				<span class="label label-default"><?php echo $user->group->name; ?></span></h4>
-			<div class="randomsub"><?php echo (!empty($user->profile->title)) ? $user->profile->title : Yii::t('RandomUserModule.base', '<i>This user has no title</i>'); ?></div>
+			<div class="randomsub truncaterandom"><?php echo (!empty($user->profile->title)) ? $user->profile->title : Yii::t('RandomUserModule.base', '<i>This user has no title</i>'); ?></div>
 		</div>
 	</div>
 </div>

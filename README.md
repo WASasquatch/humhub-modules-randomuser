@@ -9,7 +9,7 @@ This widget shows a random user from the database
 
 ### Installation
 
-- Drop into your /protected/modules folder
+- Drop or clone into your /protected/modules folder as "randomspace"
 - Activate module in ACP
 
 __Author:__ Jordan Thompson

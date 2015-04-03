@@ -18,11 +18,13 @@ class RandomUserSidebarWidget extends HWidget {
 	    $css = Yii::app()->assetManager->publish(dirname(__FILE__) . '/../css', true, 0, defined('YII_DEBUG'));
         Yii::app()->clientScript->registerCssFile($css . '/main.css');
 		$user = $this->getRandomUser();
-		if(!empty($user)) {
+		if(!empty($user) && !empty($user->displayName)) {
 			$this->render ( 'RandomUserPanel', array (
 			'css' => $css,
 			'user' => $user
 			) );
+		} else {
+			$this->run();
 		}
 	}
 	

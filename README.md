@@ -1,6 +1,6 @@
 ## Description
 
-This widget shows a random user from the database
+This widget shows a random user from the database on the dashboard.
 
 ### Features:
 
